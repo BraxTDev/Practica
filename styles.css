@@ -1,0 +1,48 @@
+
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    /* posicionamiento de los elementos */
+    flex-wrap: wrap;
+    /* justificar contenido - justify content */
+    justify-content: center;
+    /* Alignt items */
+    align-items: center;
+    /* align content - alinea contenido */
+    align-content: center;
+    /* gap, row-gap, column-gap */
+    gap: 10px 20px ;
+    row-gap: 10px;
+    column-gap: 20px;
+
+
+    
+}
+/* Propiedades para los niños
+(elementos flexibles) */
+/* Hijos */
+.items {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    /* orden */
+    /* order: 1; */
+    /* flex-gropw */
+    /* flex-grow: 1; */
+    /* flex-shrink */
+    /* flex-shrink: 3; */
+    /* flex-basis */
+    /* flex-basis: auto; */
+
+    /* align-self */
+    
+}
+.items1{
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 5px solid black;
+    /* align-self */
+    align-self: center;
+
+}
